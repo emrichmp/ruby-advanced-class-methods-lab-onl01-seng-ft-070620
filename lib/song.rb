@@ -55,4 +55,8 @@ class Song
     @@all << song_filename
     song_filename
   end
+  
+  def self.destroy_all
+    @@all = []
+  end
 end
